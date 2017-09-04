@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.puzzle
+{
+	width:900px;
+	height:900px;
+	margin-left:600px;
+	margin-top:100px;
+	
+}
+
+.row0,.row1,.row2
+{
+	float:left;
+	width:862px;
+	height:284px;
+}
+
+.col00,.col01,.col02,.col10,.col11,.col12,.col20,.col21,.col22
+{
+	float:left;
+	width:284px;
+	height:284px;
+	cursor:move;
+}
+
